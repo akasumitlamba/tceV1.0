@@ -6,7 +6,7 @@ A web-based tool for tracking test execution results. This tool allows testers t
 
 - Import test cases from CSV
 - Track test execution status (PASSED, FAILED, EXECUTING, TODO, BLOCKED, N/A)
-- Add comments and evidence for each test case
+- Add comments for each test case
 - Export results back to CSV
 - Dark/Light theme support
 - Responsive design
@@ -38,7 +38,7 @@ A web-based tool for tracking test execution results. This tool allows testers t
 4. For each test case:
    - Review the test details
    - Click on the appropriate status indicator (PASSED, FAILED, etc.)
-   - Add any comments or evidence in the comment section
+   - Add any comments in the comment section
 5. Click "Export CSV" to download the updated test results
 
 ## CSV Format
@@ -49,14 +49,11 @@ The CSV file should contain the following columns:
 - Data (mandatory)
 - test steps (mandatory)
 - exppected result (mandatory)
+- Execution status (optional)
+- Execution last modified timestamp (optional)
 - Executed by (optional)
 - reporter (optional)
-- Execution status (optional)
-- actual result (optional)
 - comment (optional)
-- Defect (optional)
-- evidence (optional)
-- Execution last modified timestamp (optional)
 
 ## Notes
 

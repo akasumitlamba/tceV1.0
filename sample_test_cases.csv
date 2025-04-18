@@ -1,12 +1,12 @@
-S.No,Summary,Data,test steps,exppected result,Executed by,reporter,Execution status,actual result,comment,Defect,evidence,Execution last modified timestamp
+S.No,Summary,Data,test steps,exppected result,Execution status,Execution last modified timestamp,Executed by,reporter,comment
 1,Verify user login with valid credentials,Valid username and password,1. Navigate to login page
 2. Enter valid username
 3. Enter valid password
-4. Click login button,User should be successfully logged in and redirected to dashboard,,,,,,,,
+4. Click login button,User should be successfully logged in and redirected to dashboard,TODO,,,,
 2,Verify user login with invalid password,Valid username and invalid password,1. Navigate to login page
 2. Enter valid username
 3. Enter invalid password
-4. Click login button,User should see error message "Invalid password",,,,,,,
+4. Click login button,User should see error message "Invalid password",TODO,,,,
 3,Verify password reset functionality,Registered email address,1. Click on "Forgot Password" link
 2. Enter registered email address
 3. Click "Reset Password" button
@@ -14,10 +14,10 @@ S.No,Summary,Data,test steps,exppected result,Executed by,reporter,Execution sta
 5. Click reset link
 6. Enter new password
 7. Confirm new password
-8. Click "Reset Password" button,User should receive password reset email and be able to set new password,,,,,,,,
+8. Click "Reset Password" button,User should receive password reset email and be able to set new password,TODO,,,,
 4,Verify user registration with valid data,New user details,1. Click on "Register" button
 2. Fill in all required fields
-3. Click "Submit" button,New user account should be created successfully,,,,,,,,
+3. Click "Submit" button,New user account should be created successfully,TODO,,,,
 5,Verify form validation for registration,Invalid user details,1. Click on "Register" button
 2. Leave required fields empty
-3. Click "Submit" button,Form should show validation errors for empty required fields,,,,,,,, 
+3. Click "Submit" button,Form should show validation errors for empty required fields,TODO,,,, 

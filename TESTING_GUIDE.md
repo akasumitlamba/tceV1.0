@@ -42,30 +42,37 @@ This document provides guidance for testing the Test Execution Tracker applicati
 - Only one status can be selected at a time
 - Status changes should persist until export
 
-### 3. Comment and Evidence Updates
+### 3. Comment Updates
 **Test Steps:**
 1. Import the sample CSV file
 2. For each test case:
    - Add comments in the comment section
-   - Add evidence details
-   - Add defect information
 
 **Expected Results:**
-- All text inputs should accept and save the entered data
+- Comments should be saved
 - Changes should persist until export
 
 ### 4. CSV Export Functionality
 **Test Steps:**
 1. Import the sample CSV file
-2. Make changes to test cases (status, comments, etc.)
+2. Make changes to test cases (status, comments)
 3. Click "Export CSV"
 4. Open the downloaded CSV file in a spreadsheet editor
 
 **Expected Results:**
 - CSV file should download successfully
 - All changes made in the application should be reflected in the exported CSV
-- Original CSV structure should be maintained
-- New columns should be populated with the updated data
+- Original CSV structure should be maintained with the following columns:
+  - S.No
+  - Summary
+  - Data
+  - test steps
+  - exppected result
+  - Execution status
+  - Execution last modified timestamp
+  - Executed by
+  - reporter
+  - comment
 
 ### 5. Data Validation
 **Test Steps:**
@@ -80,7 +87,7 @@ This document provides guidance for testing the Test Execution Tracker applicati
 When testing, verify:
 1. All imported test cases are displayed correctly
 2. Status changes are saved and reflected in the export
-3. Comments and evidence are properly saved and exported
+3. Comments are properly saved and exported
 4. The exported CSV maintains the correct format
 5. Data validation works for missing mandatory fields
 6. The application handles large CSV files appropriately
@@ -88,7 +95,7 @@ When testing, verify:
 ## Common Issues to Watch For
 1. CSV import fails with incorrect file format
 2. Status changes not saving correctly
-3. Comments or evidence not appearing in exported CSV
+3. Comments not appearing in exported CSV
 4. Application freezing with large CSV files
 5. Data loss between import and export
 

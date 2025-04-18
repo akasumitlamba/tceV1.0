@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Execution Tracker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="app-header">
+            <h1>TestTrek-Test Execution Tracker</h1>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+                <span>Dark Mode</span>
+            </button>
+        </div>
+
+        <div id="importSection">
+            <div class="import-card">
+                <div class="import-header">
+                    <i class="fas fa-file-import fa-2x"></i>
+                    <h2>Import Test Cases</h2>
+                </div>
+                <div class="import-form">
+                    <div class="form-group">
+                        <label for="executedByInput">
+                            <i class="fas fa-user"></i> Executed By
+                        </label>
+                        <input type="text" id="executedByInput" class="form-control" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="csvFile">
+                            <i class="fas fa-file-csv"></i> Import CSV
+                        </label>
+                        <div class="file-input-wrapper">
+                            <input type="file" id="csvFile" class="form-control" accept=".csv">
+                        </div>
+                    </div>
+                    <button id="importBtn" class="btn btn-primary w-100">
+                        <i class="fas fa-file-import"></i> Import Test Cases
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="testExecutionView" style="display: none;">
+            <div class="header">
+                <h2>Current Execution Details</h2>
+                <p class="csv-path"></p>
+            </div>
+            
+            <div id="testCasesList"></div>
+
+            <div class="export-section">
+                <button id="exportBtn" class="btn btn-primary">
+                    <i class="fas fa-file-export"></i> Export CSV
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <template id="testCaseTemplate">
+        <div class="test-case">
+            <div class="test-header">
+                <h3 class="test-title"></h3>
+                <div class="test-meta">
+                    <span>S.No: <span class="s-no"></span></span>
+                    <span>Executed by: <span class="executed-by"></span></span>
+                    <span>Reporter: <span class="reporter"></span></span>
+                </div>
+            </div>
+
+            <div class="test-details">
+                <table class="table">
+                    <tr>
+                        <th>Prerequisites</th>
+                        <td class="prerequisites"></td>
+                    </tr>
+                    <tr>
+                        <th>Test Steps</th>
+                        <td class="test-steps"></td>
+                    </tr>
+                    <tr>
+                        <th>Expected Result</th>
+                        <td class="expected-result"></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="status-section">
+                <div class="status-indicators">
+                    <div class="status-circles">
+                        <div class="status-circle" data-status="PASSED" title="Pass"></div>
+                        <div class="status-circle" data-status="FAILED" title="Fail"></div>
+                        <div class="status-circle" data-status="EXECUTING" title="Executing"></div>
+                        <div class="status-circle" data-status="TODO" title="Todo"></div>
+                        <div class="status-circle" data-status="BLOCKED" title="Blocked"></div>
+                        <div class="status-circle" data-status="N/A" title="N/A"></div>
+                    </div>
+                    <div class="current-status">Status: <span class="status-text">TODO</span></div>
+                    <div class="comment-button">
+                        <h6>Comment <i class="fas fa-chevron-down"></i></h6>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <textarea class="comment form-control" rows="3" placeholder="Add your comments here..."></textarea>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html> 

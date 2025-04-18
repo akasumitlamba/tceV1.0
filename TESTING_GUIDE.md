@@ -92,7 +92,7 @@ When testing, verify:
 5. Data validation works for missing mandatory fields
 6. The application handles large CSV files appropriately
 
-## Common Issues to Watch For
+## Common Issues to Watch For (optional for release V1.0)
 1. CSV import fails with incorrect file format
 2. Status changes not saving correctly
 3. Comments not appearing in exported CSV

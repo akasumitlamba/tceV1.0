@@ -1,114 +1,114 @@
 S.No,Summary,Data,test steps,exppected result,Execution status,Execution last modified timestamp,Executed by,reporter,comment
 1,Timezone_Handling_Review cart_Add remarks for cart items and passengers and verify the timestamps,Create cart for cruise hotel misc transfer air package group product,"1. Navigate to Review Cart page
 2. Click on Additional Actions>Add/Update Remarks
-3. Add cart item and passenger remarks",User should be able to add the remarks the OU date and time for the current user should be shown for all types of remarks added.,PASSED,2025-04-14T10:13:23.829Z,sdav,Sumit,sdvad
+3. Add cart item and passenger remarks",User should be able to add the remarks the OU date and time for the current user should be shown for all types of remarks added.,PASSED,2025-04-14T10:13:23.829Z,,Sumit,sdvad
 1,Verify cart modification timestamp updates,Create a cart with multiple items,"1. Open existing cart
 2. Modify cart items
 3. Check timestamp
 4. Wait 5 minutes
-5. Modify again",Cart modification timestamp should update with each change,FAILED,2025-04-14T10:13:23.829Z,sdav,Sumit,
+5. Modify again",Cart modification timestamp should update with each change,FAILED,2025-04-14T10:13:23.829Z,,Sumit,
 1,Test passenger details validation,Setup test passenger data,"1. Go to passenger details
 2. Enter invalid data
 3. Submit form
 4. Enter valid data
-5. Submit again",Form should show validation errors for invalid data and accept valid data,EXECUTING,2025-04-14T10:13:23.829Z,sdav,Sumit,
+5. Submit again",Form should show validation errors for invalid data and accept valid data,EXECUTING,2025-04-14T10:13:23.829Z,,Sumit,
 1,Verify price recalculation,Create cart with dynamic pricing items,"1. Add items to cart
 2. Change dates
 3. Update passenger count
-4. Modify room type",Prices should automatically recalculate for all changes,TODO,2025-04-14T10:13:23.829Z,sdav,Sumit,
+4. Modify room type",Prices should automatically recalculate for all changes,TODO,2025-04-14T10:13:23.829Z,,Sumit,
 1,Test booking confirmation email,Setup test booking environment,"1. Complete booking
 2. Check email delivery
 3. Verify email content
-4. Check attachments",Confirmation email should be sent with correct details and attachments,BLOCKED,2025-04-14T10:13:23.829Z,sdav,Sumit,
+4. Check attachments",Confirmation email should be sent with correct details and attachments,BLOCKED,2025-04-14T10:13:23.829Z,,Sumit,
 1,Verify multiple currency support,Configure multi-currency test data,"1. Change currency to EUR
 2. Add items to cart
 3. Change to USD
-4. Verify totals",All prices should convert correctly between currencies,N/A,2025-04-14T10:13:23.829Z,sdav,Sumit,
+4. Verify totals",All prices should convert correctly between currencies,N/A,2025-04-14T10:13:23.829Z,,Sumit,
 1,Timezone_Handling_Review cart_Add remarks for cart items and passengers and verify the timestamps,Create cart for cruise hotel misc transfer air package group product,"1. Navigate to Review Cart page
 2. Click on Additional Actions>Add/Update Remarks
-3. Add cart item and passenger remarks",User should be able to add the remarks the OU date and time for the current user should be shown for all types of remarks added.,BLOCKED,2025-04-14T10:13:23.829Z,sdav,Sumit,
+3. Add cart item and passenger remarks",User should be able to add the remarks the OU date and time for the current user should be shown for all types of remarks added.,BLOCKED,2025-04-14T10:13:23.829Z,,Sumit,
 1,Verify cart modification timestamp updates,Create a cart with multiple items,"1. Open existing cart
 2. Modify cart items
 3. Check timestamp
 4. Wait 5 minutes
-5. Modify again",Cart modification timestamp should update with each change,TODO,2025-04-14T10:13:23.829Z,sdav,Sumit,
+5. Modify again",Cart modification timestamp should update with each change,TODO,2025-04-14T10:13:23.829Z,,Sumit,
 1,Test passenger details validation,Setup test passenger data,"1. Go to passenger details
 2. Enter invalid data
 3. Submit form
 4. Enter valid data
-5. Submit again",Form should show validation errors for invalid data and accept valid data,EXECUTING,2025-04-14T10:13:23.829Z,sdav,Sumit,vsadv
+5. Submit again",Form should show validation errors for invalid data and accept valid data,EXECUTING,2025-04-14T10:13:23.829Z,,Sumit,vsadv
 1,Verify price recalculation,Create cart with dynamic pricing items,"1. Add items to cart
 2. Change dates
 3. Update passenger count
-4. Modify room type",Prices should automatically recalculate for all changes,FAILED,2025-04-14T10:13:23.829Z,sdav,Sumit,
+4. Modify room type",Prices should automatically recalculate for all changes,FAILED,2025-04-14T10:13:23.829Z,,Sumit,
 1,Test booking confirmation email,Setup test booking environment,"1. Complete booking
 2. Check email delivery
 3. Verify email content
-4. Check attachments",Confirmation email should be sent with correct details and attachments,PASSED,2025-04-14T10:13:23.829Z,sdav,Sumit,
+4. Check attachments",Confirmation email should be sent with correct details and attachments,PASSED,2025-04-14T10:13:23.829Z,,Sumit,
 1,Verify multiple currency support,Configure multi-currency test data,"1. Change currency to EUR
 2. Add items to cart
 3. Change to USD
-4. Verify totals",All prices should convert correctly between currencies,FAILED,2025-04-14T10:13:23.829Z,sdav,Sumit,
+4. Verify totals",All prices should convert correctly between currencies,FAILED,2025-04-14T10:13:23.829Z,,Sumit,
 1,Timezone_Handling_Review cart_Add remarks for cart items and passengers and verify the timestamps,Create cart for cruise hotel misc transfer air package group product,"1. Navigate to Review Cart page
 2. Click on Additional Actions>Add/Update Remarks
-3. Add cart item and passenger remarks",User should be able to add the remarks the OU date and time for the current user should be shown for all types of remarks added.,FAILED,2025-04-14T10:13:23.829Z,sdav,Sumit,
+3. Add cart item and passenger remarks",User should be able to add the remarks the OU date and time for the current user should be shown for all types of remarks added.,FAILED,2025-04-14T10:13:23.829Z,,Sumit,
 1,Verify cart modification timestamp updates,Create a cart with multiple items,"1. Open existing cart
 2. Modify cart items
 3. Check timestamp
 4. Wait 5 minutes
-5. Modify again",Cart modification timestamp should update with each change,EXECUTING,2025-04-14T10:13:23.829Z,sdav,Sumit,
+5. Modify again",Cart modification timestamp should update with each change,EXECUTING,2025-04-14T10:13:23.829Z,,Sumit,
 1,Test passenger details validation,Setup test passenger data,"1. Go to passenger details
 2. Enter invalid data
 3. Submit form
 4. Enter valid data
-5. Submit again",Form should show validation errors for invalid data and accept valid data,TODO,2025-04-14T10:13:23.829Z,sdav,Sumit,
+5. Submit again",Form should show validation errors for invalid data and accept valid data,TODO,2025-04-14T10:13:23.829Z,,Sumit,
 1,Verify price recalculation,Create cart with dynamic pricing items,"1. Add items to cart
 2. Change dates
 3. Update passenger count
-4. Modify room type",Prices should automatically recalculate for all changes,BLOCKED,2025-04-14T10:13:23.829Z,sdav,Sumit,
+4. Modify room type",Prices should automatically recalculate for all changes,BLOCKED,2025-04-14T10:13:23.829Z,,Sumit,
 1,Test booking confirmation email,Setup test booking environment,"1. Complete booking
 2. Check email delivery
 3. Verify email content
-4. Check attachments",Confirmation email should be sent with correct details and attachments,N/A,2025-04-14T10:13:23.829Z,sdav,Sumit,avsdvasd
+4. Check attachments",Confirmation email should be sent with correct details and attachments,N/A,2025-04-14T10:13:23.829Z,,Sumit,avsdvasd
 1,Verify multiple currency support,Configure multi-currency test data,"1. Change currency to EUR
 2. Add items to cart
 3. Change to USD
-4. Verify totals",All prices should convert correctly between currencies,BLOCKED,2025-04-14T10:13:23.829Z,sdav,Sumit,
+4. Verify totals",All prices should convert correctly between currencies,BLOCKED,2025-04-14T10:13:23.829Z,,Sumit,
 1,Timezone_Handling_Review cart_Add remarks for cart items and passengers and verify the timestamps,Create cart for cruise hotel misc transfer air package group product,"1. Navigate to Review Cart page
 2. Click on Additional Actions>Add/Update Remarks
-3. Add cart item and passenger remarks",User should be able to add the remarks the OU date and time for the current user should be shown for all types of remarks added.,PASSED,2025-04-14T10:13:23.829Z,sdav,Sumit,
+3. Add cart item and passenger remarks",User should be able to add the remarks the OU date and time for the current user should be shown for all types of remarks added.,PASSED,2025-04-14T10:13:23.829Z,,Sumit,
 1,Verify cart modification timestamp updates,Create a cart with multiple items,"1. Open existing cart
 2. Modify cart items
 3. Check timestamp
 4. Wait 5 minutes
-5. Modify again",Cart modification timestamp should update with each change,N/A,2025-04-14T10:13:23.829Z,sdav,Sumit,
+5. Modify again",Cart modification timestamp should update with each change,N/A,2025-04-14T10:13:23.829Z,,Sumit,
 1,Test passenger details validation,Setup test passenger data,"1. Go to passenger details
 2. Enter invalid data
 3. Submit form
 4. Enter valid data
-5. Submit again",Form should show validation errors for invalid data and accept valid data,FAILED,2025-04-14T10:13:23.829Z,sdav,Sumit,dsvasdav
+5. Submit again",Form should show validation errors for invalid data and accept valid data,FAILED,2025-04-14T10:13:23.829Z,,Sumit,dsvasdav
 1,Verify price recalculation,Create cart with dynamic pricing items,"1. Add items to cart
 2. Change dates
 3. Update passenger count
-4. Modify room type",Prices should automatically recalculate for all changes,N/A,2025-04-14T10:13:23.829Z,sdav,Sumit,
+4. Modify room type",Prices should automatically recalculate for all changes,N/A,2025-04-14T10:13:23.829Z,,Sumit,
 1,Test booking confirmation email,Setup test booking environment,"1. Complete booking
 2. Check email delivery
 3. Verify email content
-4. Check attachments",Confirmation email should be sent with correct details and attachments,FAILED,2025-04-14T10:13:23.829Z,sdav,Sumit,
+4. Check attachments",Confirmation email should be sent with correct details and attachments,FAILED,2025-04-14T10:13:23.829Z,,Sumit,
 1,Verify multiple currency support,Configure multi-currency test data,"1. Change currency to EUR
 2. Add items to cart
 3. Change to USD
-4. Verify totals",All prices should convert correctly between currencies,FAILED,2025-04-14T10:13:23.829Z,sdav,Sumit,adsvaedf
+4. Verify totals",All prices should convert correctly between currencies,FAILED,2025-04-14T10:13:23.829Z,,Sumit,adsvaedf
 1,Timezone_Handling_Review cart_Add remarks for cart items and passengers and verify the timestamps,Create cart for cruise hotel misc transfer air package group product,"1. Navigate to Review Cart page
 2. Click on Additional Actions>Add/Update Remarks
-3. Add cart item and passenger remarks",User should be able to add the remarks the OU date and time for the current user should be shown for all types of remarks added.,N/A,2025-04-14T10:13:23.829Z,sdav,Sumit,
+3. Add cart item and passenger remarks",User should be able to add the remarks the OU date and time for the current user should be shown for all types of remarks added.,N/A,2025-04-14T10:13:23.829Z,,Sumit,
 1,Verify cart modification timestamp updates,Create a cart with multiple items,"1. Open existing cart
 2. Modify cart items
 3. Check timestamp
 4. Wait 5 minutes
-5. Modify again",Cart modification timestamp should update with each change,PASSED,2025-04-14T10:13:23.829Z,sdav,Sumit,sdvas
+5. Modify again",Cart modification timestamp should update with each change,PASSED,2025-04-14T10:13:23.829Z,,Sumit,sdvas
 1,Test passenger details validation,Setup test passenger data,"1. Go to passenger details
 2. Enter invalid data
 3. Submit form
 4. Enter valid data
-5. Submit again",Form should show validation errors for invalid data and accept valid data,BLOCKED,2025-04-14T10:13:23.829Z,sdav,Sumit,
+5. Submit again",Form should show validation errors for invalid data and accept valid data,BLOCKED,2025-04-14T10:13:23.829Z,,Sumit,
